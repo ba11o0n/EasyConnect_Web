@@ -89,7 +89,7 @@
   - **Total: ~$ per wristband**
 
 ## Software
-- ## Software
+- Implementation
 - Frontend: HTML, CSS (Tailwind), JavaScript (ES6+), Alpine.js / htmx
 - Backend: Python 3.11+, FastAPI, Uvicorn
 - Database: PostgreSQL + SQLAlchemy
