@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complete Your Profile</title>
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">EasyConnect</div>
+    <nav class="nav-links">
+      <a href="/index.html">Home</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h1 class="hero-title" data-aos="zoom-in">Setup Your Profile</h1>
+    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+      Finish creating your profile so you're ready to connect instantly at your event.
+    </p>
+
+    <div class="glass-card" data-aos="zoom-in-up" data-aos-delay="300">
+      <input type="text" class="form-input large" placeholder="Full Name" />
+      <input type="email" class="form-input large" placeholder="Email Address" />
+      <input type="text" class="form-input large" placeholder="Phone (optional)" />
+      <input type="url" class="form-input large" placeholder="LinkedIn Profile (optional)" />
+      <input type="file" class="form-input large" accept="image/*" />
+      <button class="glow-button" onclick="alert('Profile Submitted!')">Save & Continue</button>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

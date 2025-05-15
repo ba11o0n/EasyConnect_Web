@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vendor Settings</title>
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">EasyConnect Vendor Settings</div>
+    <nav class="nav-links">
+      <a href="/dashboard-vendor.html">← Back to Dashboard</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-title">Settings</h1>
+    <p class="hero-subtitle">Manage your contact info and preferences.</p>
+
+    <div class="glass-card">
+      <h2>Contact & Links</h2>
+      <input type="email" class="form-input large" placeholder="Email Address" />
+      <input type="url" class="form-input large" placeholder="LinkedIn URL" />
+      <input type="url" class="form-input large" placeholder="Organization Website" />
+    </div>
+
+    <div class="glass-card">
+      <h2>Password (Optional)</h2>
+      <input type="password" class="form-input large" placeholder="New Password" />
+      <input type="password" class="form-input large" placeholder="Confirm Password" />
+    </div>
+
+    <div class="glass-card">
+      <h2>Notification Preferences</h2>
+      <label><input type="checkbox" checked /> Email me when someone connects at an event</label><br>
+      <label><input type="checkbox" /> Send me event updates</label>
+    </div>
+
+    <button class="glow-button" onclick="alert('Settings saved!')">Save Settings</button>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">EasyConnect</div>
+    <nav class="nav-links">
+      <a href="/index.html">Home</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-title">Create an Account</h1>
+    <p class="hero-subtitle">Sign up and start building your professional network.</p>
+
+    <div class="glass-card" data-aos="fade-up" data-aos-delay="150">
+      <input type="text" class="form-input large" placeholder="Full Name" />
+      <input type="email" class="form-input large" placeholder="Email Address" />
+      <input type="password" class="form-input large" placeholder="Create Password" />
+      <select id="user-role" class="form-input large">
+        <option value="" disabled selected>Select your role</option>
+        <option value="attendee">Attendee: General event participant</option>
+        <option value="vendor">Vendor: Booth or service provider</option>
+        <option value="admin">Admin: Booth or service provider</option>
+      </select>
+      
+      <button class="glow-button" onclick="validateForm()">Sign Up</button>
+      <p class="auth-redirect">Already have an account?
+        <a href="/login.html">Log in here</a>
+      </p>
+    </div>
+
+    
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script type="module" src="/src/js/signup.js"></script>
+  <script>AOS.init();</script>
+
+
+</body>
+</html>
